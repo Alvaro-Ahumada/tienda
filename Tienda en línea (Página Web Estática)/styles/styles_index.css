@@ -1,0 +1,55 @@
+/* styles_index.css */
+.ofertas-destacadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.ofertas-destacadas img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.ofertas-destacadas img:hover {
+    transform: scale(1.1);
+}
+
+.experiencia_compra {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.seccion_descripcion, .seccion_video {
+    flex-basis: 48%;
+}
+
+.seccion_video video {
+    width: 100%;
+    height: auto;
+}
+
+.titulo_descripcion, .seccion_video h2 {
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.descripcion_tienda {
+    text-align: left;
+}
+.titulo_oferta {
+    margin: 33px;
+    text-align: center;
+}
+.aprovecha_oferta {
+    text-align: center;
+}
+.titulo_descripcion {
+    text-align: center;
+}
+.titulo_experiencia {
+    text-align: center;
+}

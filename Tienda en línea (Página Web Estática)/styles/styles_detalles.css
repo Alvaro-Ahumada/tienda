@@ -1,0 +1,41 @@
+/* styles_detalles.css */
+#detalles {
+    text-align: left;
+}
+
+#producto-contenedor, .informacion-producto, .especificaciones {
+    margin: 20px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#producto-contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.producto-detalle img {
+    max-width: 50%;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.informacion-producto, .especificaciones {
+    width: auto;
+}
+
+.producto-detalle img {
+  transition: box-shadow 0.3s ease;
+}
+
+.producto-detalle img:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.titulo-informacion{
+    padding-left: 20px;
+}
+.especificaciones {
+    margin: -13px;
+}
